@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0" version="24.8.3" pages="2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0" version="24.8.3" pages="3">
   <diagram name="Class" id="H16kf9VRxXqB6-L6vs2r">
     <mxGraphModel dx="890" dy="481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -329,6 +329,53 @@
         </mxCell>
         <mxCell id="2CFhrIa6YHnjqleBLtZb-53" value="Edit" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#ffffff;verticalAlign=middle;spacing=3.8;strokeWidth=0.8;fontSize=13;align=left;" vertex="1" parent="2CFhrIa6YHnjqleBLtZb-11">
           <mxGeometry x="603.5671522590253" y="184.8" width="39.18284774097471" height="38.7" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="jcplm3bAVn-ynJcka8fw" name="Create/Edit/View">
+    <mxGraphModel dx="890" dy="1581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uRH15PGvbiqkvCdyBtGz-1" value="Subject (Dropdown) (Default subject selected)" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;align=left;spacing=3.8;verticalAlign=top;strokeColor=#unset;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=default;strokeWidth=NaN;lucidId=AyLiC_KEb47U;" vertex="1" parent="1">
+          <mxGeometry x="135" y="315" width="660" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uRH15PGvbiqkvCdyBtGz-2" value="Title (optional)" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;align=left;spacing=3.8;verticalAlign=top;strokeColor=#unset;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=default;strokeWidth=NaN;lucidId=zALiK.IIOV~F;" vertex="1" parent="1">
+          <mxGeometry x="135" y="405" width="660" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uRH15PGvbiqkvCdyBtGz-3" value="Description" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;align=left;spacing=3.8;verticalAlign=top;strokeColor=#unset;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=default;strokeWidth=NaN;lucidId=2ALiqmPx_2v3;" vertex="1" parent="1">
+          <mxGeometry x="135" y="495" width="660" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uRH15PGvbiqkvCdyBtGz-4" value="Create Assignment" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=20;align=left;spacing=0;strokeColor=#unset;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=none;strokeWidth=NaN;lucidId=CBLiXxcvWf3n;" vertex="1" parent="1">
+          <mxGeometry x="105" y="-90" width="180" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="uRH15PGvbiqkvCdyBtGz-5" value="&lt;div style=&quot;display: flex; justify-content: flex-start; text-align: left; align-items: baseline; font-size: 0; line-height: 1.25;margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:16.7px;color:#3a414a;&quot;&gt;Students (UL-LI) (Default: All)&#xa;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;display: flex; justify-content: flex-start; text-align: left; align-items: baseline; font-size: 0; line-height: 1.25;margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:16.7px;color:#3a414a;&quot;&gt;(All Students, list of students with present/absent mark)&#xa;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;display: flex; justify-content: flex-start; text-align: left; align-items: baseline; font-size: 0; line-height: 1.25;margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:16.7px;color:#3a414a;&quot;&gt;&amp;gt; Student1 (red dot =&amp;gt; absent)&#xa;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;display: flex; justify-content: flex-start; text-align: left; align-items: baseline; font-size: 0; line-height: 1.25;margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:16.7px;color:#3a414a;&quot;&gt;&amp;gt; Student2 (green =&amp;gt; present)&#xa;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;display: flex; justify-content: flex-start; text-align: left; align-items: baseline; font-size: 0; line-height: 1.25;margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:16.7px;color:#3a414a;&quot;&gt;&amp;gt; Student3&#xa;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;display: flex; justify-content: flex-start; text-align: left; align-items: baseline; font-size: 0; line-height: 1.25;margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:16.7px;color:#3a414a;&quot;&gt;&amp;gt; Student4&#xa;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;display: flex; justify-content: flex-start; text-align: left; align-items: baseline; font-size: 0; line-height: 1.25;margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:16.7px;color:#3a414a;&quot;&gt;&amp;gt; Student5&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=13;spacing=3.8;verticalAlign=top;strokeColor=#282c33;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#ffffff;strokeWidth=1.5;lucidId=eDLiibPRs1QS;" vertex="1" parent="1">
+          <mxGeometry x="135" y="120" width="660" height="148" as="geometry" />
+        </mxCell>
+        <mxCell id="uRH15PGvbiqkvCdyBtGz-6" value="Assignment Date (select, default: today)" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;align=left;spacing=3.8;verticalAlign=top;strokeColor=#unset;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=default;strokeWidth=NaN;lucidId=.FLiQspOmBQg;" vertex="1" parent="1">
+          <mxGeometry x="135" y="45" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uRH15PGvbiqkvCdyBtGz-7" value="Create" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;fontColor=#ffffff;spacing=3.8;strokeColor=#unset;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#6db1ff;strokeWidth=NaN;lucidId=VGLiAmuDfrpo;" vertex="1" parent="1">
+          <mxGeometry x="135" y="585" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uRH15PGvbiqkvCdyBtGz-8" value="Cancel" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;fontColor=#ffffff;spacing=3.8;strokeColor=#unset;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#979ea8;strokeWidth=NaN;lucidId=0GLiMhC2c~9X;" vertex="1" parent="1">
+          <mxGeometry x="570" y="585" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uRH15PGvbiqkvCdyBtGz-9" value="Delete" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;fontColor=#ffffff;spacing=3.8;strokeColor=#unset;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#e81313;strokeWidth=NaN;lucidId=eHLiJ2q2VSJ2;" vertex="1" parent="1">
+          <mxGeometry x="690" y="585" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uRH15PGvbiqkvCdyBtGz-10" value="Due Date (default: next.work.day)" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;align=left;spacing=3.8;verticalAlign=top;strokeColor=#unset;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=default;strokeWidth=NaN;lucidId=0ILiudOcQnfr;" vertex="1" parent="1">
+          <mxGeometry x="450" y="45" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uRH15PGvbiqkvCdyBtGz-11" value="(or Save)" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;align=left;spacing=0;strokeColor=#unset;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=none;strokeWidth=NaN;lucidId=aPLiNIcJaW-Q;" vertex="1" parent="1">
+          <mxGeometry x="255" y="578" width="75" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="uRH15PGvbiqkvCdyBtGz-12" value="Teacher (Default: self)" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;align=left;spacing=3.8;verticalAlign=top;strokeColor=#unset;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=default;strokeWidth=NaN;lucidId=PQLiw7UhwqM-;" vertex="1" parent="1">
+          <mxGeometry x="135" y="-30" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uRH15PGvbiqkvCdyBtGz-13" value="&lt;div style=&quot;display: flex; justify-content: flex-start; text-align: left; align-items: baseline; font-size: 0; line-height: 1.25;margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:16.7px;color:#3a414a;&quot;&gt;https://localhost:7004/app/assignment/assignment&#xa;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;display: flex; justify-content: flex-start; text-align: left; align-items: baseline; font-size: 0; line-height: 1.25;margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:16.7px;color:#3a414a;&quot;&gt;https://localhost:7004/app/assignment/assignment?id=102&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=13;align=left;spacing=3.8;verticalAlign=top;strokeColor=none;fillOpacity=0;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#ffffff;strokeWidth=0;lucidId=HKZiJWStxgzH;" vertex="1" parent="1">
+          <mxGeometry x="105" y="-165" width="383" height="68" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
